@@ -4,7 +4,7 @@ import os
 
 # --- CONFIGURATION ---
 # PASTE YOUR API KEY BELOW INSIDE THE QUOTES
-API_KEY = "PASTE_YOUR_API_KEY_HERE" 
+API_KEY = "AIzaSyA3DlxfypsyzI4L7uJ2ZMx5oYFDJ5pOWV8" 
 
 def configure_genai():
     """Configures the AI model with the API key."""
@@ -78,3 +78,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
