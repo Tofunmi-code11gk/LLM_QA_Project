@@ -8,7 +8,7 @@ API_KEY = "PASTE_YOUR_API_KEY_HERE"
 
 def configure_genai():
     """Configures the AI model with the API key."""
-    if API_KEY == "PASTE_YOUR_API_KEY_HERE":
+    if API_KEY == "AIzaSyA3DlxfypsyzI4L7uJ2ZMx5oYFDJ5pOWV8":
         print("ERROR: You must paste your Google API Key in the code first!")
         return None
     
@@ -76,4 +76,5 @@ def main():
         print("="*50)
 
 if __name__ == "__main__":
+
     main()
