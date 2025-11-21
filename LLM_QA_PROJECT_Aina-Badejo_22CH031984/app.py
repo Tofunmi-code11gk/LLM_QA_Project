@@ -14,7 +14,7 @@ API_KEY = "AIzaSyA3DlxfypsyzI4L7uJ2ZMx5oYFDJ5pOWV8"
 if API_KEY != "PASTE_YOUR_API_KEY_HERE":
     genai.configure(api_key=API_KEY)
     # CHANGED MODEL TO 'gemini-pro' (More stable)
-    model = genai.GenerativeModel('gemini-pro')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 else:
     model = None
     print("WARNING: API Key is missing. The app will not work until you add it.")
@@ -68,4 +68,5 @@ def ask():
         return jsonify({"error": f"AI Error: {str(e)}"})
 
 if __name__ == '__main__':
+
     app.run(debug=True)
