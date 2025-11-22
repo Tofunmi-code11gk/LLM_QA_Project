@@ -8,7 +8,7 @@ app = Flask(__name__)
 # ==========================================
 # 🛑 PASTE YOUR API KEY BELOW 🛑
 # ==========================================
-API_KEY = "AIzaSyA3DlxfypsyzI4L7uJ2ZMx5oYFDJ5pOWV8"
+API_KEY = "AIzaSyC-wAVPBz8eVrUIaJ8jMDzZHxw0Ao5MM9w"
 
 # Configure the AI Model
 if API_KEY != "PASTE_YOUR_API_KEY_HERE":
@@ -70,3 +70,4 @@ def ask():
 if __name__ == '__main__':
 
     app.run(debug=True)
+
